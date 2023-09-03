@@ -1,0 +1,55 @@
+Ejercicio práctico
+
+Introducción a Android
+Crear una aplicación utilizando Android Studio con las siguientes especificaciones:
+
+a)-Nombre: AppPractica1
+b)-Nombre del paquete: com.curso.android.app.practica.uno
+c)-Versión mínima a soportar: Android 5
+d)-Basa en un template del tipo: Vista Primaria con Detalle
+
+Actividad 1
+
+Crear un emulador del tipo Tablet, con un tamaño de pantalla de al menos 8”:
+1-Correr la aplicación en el emulador en orientación Portrait (vertical).
+2-Correr la aplicación en el emulador en orientación Landscape (horizontal).
+
+Actividad 2
+Crear un emulador del tipo Teléfono:
+1-Correr la aplicación en el emulador en orientación Portrait (vertical).
+2-Correr la aplicación en el emulador en orientación Landscape (horizontal).
+
+Actividad 3
+En ambos casos:
+
+1-Indicar que configuración tiene cada emulador creado: 
+-Versión de Android
+-Tamaño de pantalla
+-Memoria RAM
+
+Rta:
+Emulador del tipo Tablet:
+Versión de Android: 11.0
+Tamaño de pantalla: 8,86''
+Memoria RAM: 1 Gb
+
+Emulador del tipo Teléfono:
+Versión de Android: 11.0
+Tamaño de pantalla: 5.8''
+Memoria RAM: 1 Gb
+
+2-Realizar capturas de pantalla de cómo se ven todas las pantallas de la aplicación en cada configuración.
+Rta:
+Capturas de pantalla Tablet: Ver carpeta adjunta en proyecto
+Capturas de pantalla Telefono: Ver carpeta adjunta en proyecto
+
+Actividad 4
+¿Qué diferencia observa en el funcionamiento de la aplicación en una tablet con orientación Landscape y un teléfono con orientación Portrait?
+Rta: Se observa que la interfaz gráfica cambia reubicando los elementos en el espacio disponible en cada uno de los formatos, de la mejor manera. En el caso del telefono al no tener espacio suficiente en ambas orientaciones, se crean nuevas pantallas: en una se mostrarán las opciones y en las demás sus contenidos.
+
+Actividad 5
+1-¿En qué archivo está el nombre de su aplicación? - Pruebe cambiarlo y correr la aplicación nuevamente.
+Rta: En AndroidStudio la estructura del directorio(del proyecto) contiene el archivo manifests que describe la aplicación y la actividad(informacion requerida por el sistema operativo), y entre esa información se encuentra el nombre de la aplicación en el atributo "label" del tag "application".
+Podemos cambiar el nombre de la aplicacion y actualizarla haciendo correr el emulador.
+2-¿Y el ícono?
+Rta: Los iconos se encuentran en una carpeta llamada mipmap en el directorio de archivos. 
